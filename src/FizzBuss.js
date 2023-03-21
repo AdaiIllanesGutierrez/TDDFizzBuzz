@@ -1,4 +1,6 @@
 function FizzBuzz(numero) {
-    return true;
+   
+    return numero.toString();
+
 }
 export default FizzBuzz;
