@@ -5,5 +5,17 @@ describe("Fizz Buss", () => {
     //expect(sumar(3, 2)).toEqual(5);
     expect(FizzBuzz(1)).toEqual("1")
   });
-  
+  it("retorne un numero en cadena", () => {
+    //expect(sumar(3, 2)).toEqual(5);
+    expect(FizzBuzz(2)).toEqual("2")
+  });
+  it("retorne true si es multiplo de 3", () => {
+    //expect(sumar(3, 2)).toEqual(5);
+    expect(FizzBuzz(3)).toEqual(true)
+  });
+  it("retorne true si es multiplo de 3", () => {
+    //expect(sumar(3, 2)).toEqual(5);
+    expect(FizzBuzz(9)).toEqual(true)
+  });
+
 });
