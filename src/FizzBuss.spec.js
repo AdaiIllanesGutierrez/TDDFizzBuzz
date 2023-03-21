@@ -1,4 +1,4 @@
-import FizzBuzz from "./FizzBuss.js";
+import {FizzBuzz,ListaFizzBuzz} from "./FizzBuss.js";
 
 describe("Fizz Buss", () => {
   it("retorne un numero en cadena", () => {
@@ -25,7 +25,9 @@ describe("Fizz Buss", () => {
   it("retorne FizzBuzz si el numero es 30", () => {
     expect(FizzBuzz(30)).toEqual("FizzBuzz")
   });
-  
+  it("implementa la lista para 10 numeros ", () => {
+    expect(ListaFizzBuzz(10)).toEqual("1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz ")
+  });
   
 
 });

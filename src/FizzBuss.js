@@ -9,9 +9,18 @@ function FizzBuzz(numero) {
     if (numero % 5 === 0) {
         return "Buzz";
     }
-    
-    
     return numero.toString();
+}
+
+function ListaFizzBuzz(limite){
+    let lista="";
+    for(let i=1;i<limite+1;i++){
+        lista += FizzBuzz(i)+" ";
+        
+    }
+    
+    return lista;
 
 }
-export default FizzBuzz;
+
+export {ListaFizzBuzz,FizzBuzz};
