@@ -14,8 +14,10 @@ describe("Fizz Buss", () => {
     expect(FizzBuzz(3)).toEqual("Fizz")
   });
   it("retorne fizz si es multiplo de 3", () => {
-    //expect(sumar(3, 2)).toEqual(5);
     expect(FizzBuzz(9)).toEqual("Fizz")
+  });
+  it("retorne Buzz si es multiplo de 5", () => {
+    expect(FizzBuzz(5)).toEqual("Buzz")
   });
   
 
