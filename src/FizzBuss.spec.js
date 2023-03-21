@@ -9,13 +9,14 @@ describe("Fizz Buss", () => {
     //expect(sumar(3, 2)).toEqual(5);
     expect(FizzBuzz(2)).toEqual("2")
   });
-  it("retorne true si es multiplo de 3", () => {
+  it("retorne Fizz si es multiplo de 3", () => {
     //expect(sumar(3, 2)).toEqual(5);
-    expect(FizzBuzz(3)).toEqual(true)
+    expect(FizzBuzz(3)).toEqual("Fizz")
   });
-  it("retorne true si es multiplo de 3", () => {
+  it("retorne fizz si es multiplo de 3", () => {
     //expect(sumar(3, 2)).toEqual(5);
-    expect(FizzBuzz(9)).toEqual(true)
+    expect(FizzBuzz(9)).toEqual("Fizz")
   });
+  
 
 });

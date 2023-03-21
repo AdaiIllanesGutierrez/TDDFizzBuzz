@@ -1,8 +1,9 @@
 function FizzBuzz(numero) {
 
     if (numero % 3 === 0) {
-        return true;
+        return "Fizz";
     }
+    
     return numero.toString();
 
 }
